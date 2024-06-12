@@ -16,13 +16,6 @@ img {
 }
 
 .square {
-  /* grid-column: 1; */
-  /* --max-size: 400px;
-  height: 33%;
-  width: 33%;
-  max-width: 200px;
-  max-height: 200px; */
-  /* background-color: #61dafb; */
   color: white;
   display: flex;
   align-items: center;
@@ -34,8 +27,6 @@ img {
 
 .container {
   display: grid;
-  /* width: 600px;
-  height: 600px; */
   grid-template-columns: repeat(3, 70px);
   justify-content: center;
   align-content: center;
@@ -43,10 +34,4 @@ img {
   padding: 0.5em;
   gap: 1em;
   grid-template-rows: 70px 70px 70px;
-  /* max-width: 600px;
-  max-height: 600px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-  /* gap: 2px; */
 }
